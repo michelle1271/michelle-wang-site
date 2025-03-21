@@ -1,4 +1,5 @@
 import React from 'react';
+import MichelleResume from "../../assets/michelle-wang-resume.pdf";
 import './Logo.css';
 
 const MyIcon = () => {
@@ -52,7 +53,7 @@ const MyIcon = () => {
                 </div>
             </a>
 
-            <a href="https://www.linkedin.com/in/michelle-wng" target="_blank" rel="noreferrer"> 
+            <a href={MichelleResume} target="_blank" rel="noreferrer"> 
                 <div id='resume'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
