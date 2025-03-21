@@ -1,0 +1,94 @@
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #332F2F;
+    margin-top: -1.5rem;
+}
+
+.home-content h1{
+    font-size: 7vw;
+    font-weight: 650;
+    margin-top: 1.7rem;
+    line-height: 1.1;
+    font-family: "Ibarra Real Nova", serif;
+}
+
+.home-content h3{
+    font-size: 2.7vw;
+    font-weight: 520;
+    margin-top: 5px;
+}
+
+#headshot img{
+    width: 30vw;
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #332F2F;
+    margin-left: 10vw;
+    transition: all 0.2s ease-in-out;
+    border: 5px solid #332F2F;
+    background: #f6f6f6;
+    padding: 10px;
+}
+
+#headshot {
+    display: inline-block;
+}
+
+.profile-img {
+    width: 32vw;
+    border-radius: 50%;
+    border: 5px solid #332F2F;
+    background: #f6f6f6;
+    padding: 10px;
+    transition: opacity 1s ease-in-out;
+}
+
+.profile-img:hover {
+    content: url("../../assets/pfp-hover.png");
+}
+
+.logos svg{
+    width: 45px;
+    height: 45px;
+}
+
+
+/*device breakpoints*/
+@media(max-width:700px){
+    .home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-img{
+        order: 1;
+        margin-bottom: 25px;
+    }
+
+    #headshot img{
+        width: 50vw;
+        margin-left: 0px;
+    }
+
+    .home-content{
+        order: 2;
+        text-align: center;
+        align-items: center;
+    }
+
+    .home-content h1{
+        font-size: 9vw;
+        margin-top: 1rem;
+    }
+
+    .home-content h3{
+        font-size: 4vw;
+    }
+
+}

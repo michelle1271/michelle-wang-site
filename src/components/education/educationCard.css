@@ -1,0 +1,130 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 25px 40px 30px 40px;
+  }
+  
+  .education-card {
+    background: #f6f6f6;
+    border-radius: 20px;
+    padding: 20px;
+    border: 3px solid#332F2F;
+  }
+  
+  .education-card h3 {
+    font-size: 1.6rem;
+    color: #333;
+  }
+  
+  .education-card h4 {
+    font-size: 1.3rem;
+    color: #555;
+  }
+  
+  .education-card p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #777;
+    margin-top: -3px;
+  }
+
+ .education-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    border: 3px solid#332F2F;
+    box-shadow: 2px 2px 0px 0px #5d5d5d, 2px 2px 0px 1px #332F2F;
+    background: #f7f7f7;
+ }
+
+ .education-banner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .education-title{
+    display: flex;
+    justify-content: space-between;
+ }
+
+.description{
+    padding-top: 20px;
+    margin-left: 25px;
+}
+
+.description li{
+    margin-top: 7px;
+    font-size: 1.1rem;
+    font-weight: 425;
+}
+
+.education-details{
+    margin-left: 5px;
+}
+
+
+@media(max-width:900px){
+  .education-banner{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .education-details h3{
+    font-size: 3vw;
+  }
+
+  .education-details h4{
+    font-size: 2.5vw;
+    margin-top: 5px;
+  }
+
+  .education-details p{
+    font-size: 2.25vw;
+  }
+
+  .description{
+    margin-top: -15px;
+  }
+
+  .description p{
+    font-size: 2vw;
+
+  }
+
+}
+
+@media(max-width:600px){
+  .education-container{
+    padding: 5vw;
+  }
+
+  .education-card{
+    padding: 2.75vw;
+  }
+  
+  .education-details h3{
+    margin-top: -10px;
+    font-size: 4vw;
+  }
+
+  .education-details h4{
+    font-size: 3vw;
+    margin-top: 7px;
+  }
+
+  .education-details p{
+    font-size: 2.5vw;
+  }
+
+  .education-image{
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .description p{
+    font-size: 2.5vw;
+  }
+
+}
