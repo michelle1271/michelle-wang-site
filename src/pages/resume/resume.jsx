@@ -5,6 +5,7 @@ import EducationCard from "../../components/education/educationCard";
 import educationData from "../../data/educationData";
 import Footer from "../../components/footer/footer";
 import FadeInSection from "../../components/scroll/FadeInSection";
+import MichelleResume from "../../assets/michelle-wang-resume.pdf";
 import "./resume.css";
 
 const Resume = () => {
@@ -17,7 +18,7 @@ const Resume = () => {
   return (
     <div>
       <h1 className="title">resume</h1>
-      <div className="resume-pdf"><h2>download my resume</h2></div>
+      <a href={MichelleResume} target="_blank" rel="noopener noreferrer" className="resume-pdf"><h2>download my resume</h2></a>
 
       <FadeInSection>
         <div className="experience">
