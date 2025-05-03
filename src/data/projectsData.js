@@ -22,7 +22,7 @@ const projectsData = [
       id: 2,
       link: "https://ultra-ninja-9b8.notion.site/Anova-1e7f800002208005a24aee0b3ca151d6?pvs=4",
       title: "Anova",
-      description: "An all-in-one workplace application designed to enhance communication, coordination, and consistency for hybrid and remote teams. Key features to address concerns of hybrid work, difficult onboarding, and communication. Presented at Waterloo’s GBDA design-a-thon Mosaic.",
+      description: "An all-in-one workplace application designed to enhance communication, coordination, and consistency for hybrid and remote teams. Key features to address concerns of hybrid work, difficult onboarding, and communication. Presented at Waterloo GBDA's design-a-thon Mosaic.",
       image: Anova,
       tags: ["Figma", "Product Thinking", "Visual Design"],
     },
